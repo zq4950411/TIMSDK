@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   
   spec.requires_arc = true
 
-  spec.source = { :git => 'https://github.com/tencentyun/TIMSDK.git', :tag => spec.version}
+  spec.source = { :git => 'https://github.com/zq4950411/TIMSDK.git', :tag => spec.version}
   spec.preserve_paths = 'iOS/TUIKit.framework'
   spec.source_files = 'iOS/TUIKit.framework/Headers/*.h'
   spec.public_header_files = 'iOS/TUIKit.framework/Headers/*.h'
